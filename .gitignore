@@ -1,0 +1,25 @@
+# Node.js dependencies
+/node_modules/
+node_modules
+# Build output (dist, build, etc.)
+/dist/
+/build/
+
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# .env file for environment variables
+.env
+
+# IDE/editor configuration files (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Docker-related files (can be in a separate file, but for general Docker ignore, it's here)
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
